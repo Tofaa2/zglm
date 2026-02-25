@@ -7,3 +7,5 @@ pub const c = @cImport({
 pub const cs = @cImport({
     @cInclude("cglm/struct.h");
 });
+
+pub const Vec2 = cs.vec2s;
